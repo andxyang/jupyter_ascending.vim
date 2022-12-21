@@ -44,7 +44,6 @@ function! jupyter_ascending#execute() abort
         \ line('.')
         \ )
 
-  echo command_string
   call s:execute(command_string)
 endfunction
 
